@@ -14,9 +14,21 @@ io.on('connection', (socket) => {
     console.log('we have a new connection');
 
 
-    socket.on('join', ({ name, room }) => {
+    socket.on('join', ({ name, room }, callback) => {
         console.log(name, room);
-    })
+
+        callback();
+
+        const error = true;
+
+        if(error) {
+            callback({ error: 'error' });
+        }
+
+        const user = { id, name, room };
+
+        user.push(user);
+    });
 
 
     socket.on('disconnect', () =>{
