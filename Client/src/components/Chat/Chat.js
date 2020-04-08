@@ -17,7 +17,7 @@ const Chat = ({ location }) => {
   const [users, setUsers] = useState('');
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = 'http://penguin.linux.test:5000/';
+  const ENDPOINT = 'https://roomhub-app.herokuapp.com/';
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
