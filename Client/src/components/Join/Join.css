@@ -11,18 +11,31 @@ html, body {
   * {
     box-sizing: border-box;
   }
-  
+  .topHead{
+    width: 80%;
+    height: auto;
+    margin: 30px;
+    text-align: center;
+  }
+  img.logo{
+    text-align: center;
+    display: block;
+    padding: 0px;
+    margin-left: 25px;
+    width: 80%;
+    height: 200px;
+  }
   .joinOuterContainer {
     display: flex;
     justify-content: center;
     text-align: center;
     height: 100vh;
     align-items: center;
-    background-color: #1A1A1D;
+    background-color: rgb(209, 209, 209);
   }
   
   .joinInnerContainer {
-    width: 20%;
+    width: 50%;
   }
   
   .joinInput {
@@ -38,14 +51,14 @@ html, body {
     border-bottom: 2px solid white;
   }
   .headingCustom{
-    color: rgb(22, 99, 155);
+    color: rgb(119, 182, 228);
   }
   
   .button {
       color: #fff !important;
       text-transform: uppercase;
       text-decoration: none;
-      background: rgb(22, 99, 155);
+      background: rgb(119, 182, 228);
       padding: 20px;
       border-radius: 5px;
       display: inline-block;
@@ -57,7 +70,7 @@ html, body {
     margin-top: 20px;
   }
   
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (max-width: 480px) {
     .joinOuterContainer {
       height: 100%;
     }
@@ -65,9 +78,12 @@ html, body {
     .joinInnerContainer {
       width: 90%;
     }
-  
-  
+    img.logo{
+      margin-top: -100px;
+    }
+    
   }
+
   
   button:focus {
     outline: 0;
