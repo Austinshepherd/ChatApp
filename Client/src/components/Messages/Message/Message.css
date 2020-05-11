@@ -30,7 +30,7 @@
     display: flex;
     align-items: center;
     font-family: Helvetica;
-    color: #828282;
+    color: #7e7e7e;
     letter-spacing: 0.3px;
   }
   
@@ -59,7 +59,7 @@
   }
   
   .backgroundBlue {
-    background: rgb(68, 78, 85);
+    background: rgb(92, 92, 92);
   }
   
   .backgroundLight {
