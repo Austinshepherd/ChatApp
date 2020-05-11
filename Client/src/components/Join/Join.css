@@ -21,9 +21,9 @@ html, body {
     text-align: center;
     display: block;
     padding: 0px;
-    margin-left: 9%;
-    width: 80%;
-    height: 200px;
+    margin-left: -8%;
+    width: 120%;
+    height: 300px;
   }
   .joinOuterContainer {
     display: flex;
@@ -36,6 +36,7 @@ html, body {
   
   .joinInnerContainer {
     width: 50%;
+    max-width: 500px;
   }
   
   .joinInput {
@@ -79,7 +80,10 @@ html, body {
       width: 90%;
     }
     img.logo{
-      margin-top: -100px;
+      margin-top: -150px;
+      height: 300px;
+      margin-left: -11px;
+      width: 108%;
     }
     
   }
