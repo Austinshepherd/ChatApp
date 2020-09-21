@@ -27,20 +27,12 @@
     margin-bottom: 0px;
   }
   
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 800px) {
     .textContainer {
      display: none !important;
     }
   }
 
   @media only screen and (max-width: 600px) {
-    .textContainer {
-      display: flex;
-      flex-direction: column;
-      margin-left: 60px;
-      color: white;
-      font-size: 12px;
-      height: 60%;
-      justify-content: space-between;
-    }
+ 
   }
