@@ -31,7 +31,7 @@ html, body {
     text-align: center;
     height: 100vh;
     align-items: center;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(85, 85, 85);
   }
   
   .joinInnerContainer {
@@ -40,9 +40,10 @@ html, body {
   }
   
   .joinInput {
-    border-radius: 0;
+    border-radius: 5px;
     padding: 15px 20px;
     width: 100%;
+    border: none;
   }
   
   .heading {
