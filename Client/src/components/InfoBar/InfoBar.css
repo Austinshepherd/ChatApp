@@ -18,14 +18,16 @@
     margin-left: 5%;
     color: white;
   }
-  
+  .exit{
+    width: 15px;
+    height: 15px;
+  }
   .rightInnerContainer {
     display: flex;
     flex: 0.5;
     justify-content: flex-end;
-    margin-right: 5%;
+    margin-right: 3%;
   }
-  
   .onlineIcon {
     margin-right: 5%;
   }
