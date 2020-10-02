@@ -13,6 +13,7 @@
     float: left;
     font-size: 1.1em;
     word-wrap: break-word;
+    font-family: sans-serif;
   }
   
   .messageText img {
@@ -30,7 +31,7 @@
   .sentText {
     display: flex;
     align-items: center;
-    font-family: Helvetica;
+    font-family: sans-serif;
     color: #7e7e7e;
     letter-spacing: 0.3px;
   }
